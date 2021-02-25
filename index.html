@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>T-Shirts</title>
+</head>
+<body>
+  <h1>T-Shirts</h1>
+  <div id="app" class="grid-container">
+    <div class="gird-item" v-for="item in items">
+      <img :src="'./images/' + item.image">
+      <h3>{{item.title}}</h3>
+      <h4>$ {{item.price}}</h4>
+      <h4 v-if="item.stock > 0">{{item.stock}} in stock</h4>
+      <h4 v-else> Sorry, out of stock</h4>
+      <h4>{{stock_days(shipment_date(item.nextShipment.day, item.nextShipment.month, item.nextShipment.year))}} days until inventory renewal</h4>
+      <button v-if="item.stock > 0" v-on:click="item.stock -= 1"> Buy </button>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="t-shirts.js"></script>
+</body>
+</html>

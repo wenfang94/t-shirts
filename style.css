@@ -1,0 +1,44 @@
+/* some basic styling */
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+h1{
+    margin: 0;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+h3,
+h4{
+    margin: 0;
+    display: block;
+    padding-top: .5rem;
+    text-align: end;
+}
+
+button{
+    margin-top: 1rem;
+    padding: .3rem;
+    float:right;
+}
+
+.grid-container{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.gird-item{
+    margin: auto;
+    margin-top: 2rem;
+    width: 30vw;
+    
+}
+
+.gird-item img{
+    width: 100%;
+}
