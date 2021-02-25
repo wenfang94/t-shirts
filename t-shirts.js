@@ -7,7 +7,7 @@ const tshirts = [
     nextShipment: {
       day: 1,
       month: 6,
-      year: 2020
+      year: 2021
     }
   },
   {
@@ -18,7 +18,7 @@ const tshirts = [
     nextShipment: {
       day: 15,
       month: 6,
-      year: 2020
+      year: 2021
     }
   },
   {
@@ -29,7 +29,7 @@ const tshirts = [
     nextShipment: {
       day: 3,
       month: 6,
-      year: 2020
+      year: 2021
     }
   },
   {
@@ -40,7 +40,7 @@ const tshirts = [
     nextShipment: {
       day: 1,
       month: 6,
-      year: 2020
+      year: 2021
     }
   },
   {
@@ -51,7 +51,7 @@ const tshirts = [
     nextShipment: {
       day: 10,
       month: 6,
-      year: 2020
+      year: 2021
     }
   },
   {
@@ -62,7 +62,7 @@ const tshirts = [
     nextShipment: {
       day: 3,
       month: 7,
-      year: 2020
+      year: 2021
     }
   },
   {
@@ -73,7 +73,7 @@ const tshirts = [
     nextShipment: {
       day: 1,
       month: 6,
-      year: 2020
+      year: 2021
     }
   },
   {
@@ -84,7 +84,7 @@ const tshirts = [
     nextShipment: {
       day: 8,
       month: 6,
-      year: 2020
+      year: 2021
     }
   },
   {
@@ -95,7 +95,7 @@ const tshirts = [
     nextShipment: {
       day: 1,
       month: 7,
-      year: 2020
+      year: 2021
     }
   }
 ]
